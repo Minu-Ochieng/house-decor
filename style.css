@@ -1,0 +1,219 @@
+.main-wrapper {
+  padding: 16px;
+}
+nav {
+  display: flex;
+  padding: 16px;
+  font-size: 30px;
+  justify-content: space-evenly;
+}
+nav ul li {
+  list-style-type: none;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+.middle h2 {
+  font-size: 28px;
+}
+.middle h4 {
+  padding: 16px;
+  font-size: 20px;
+}
+.one {
+  width: 450px;
+  height: 400px;
+  padding: 16px;
+}
+.btn {
+  padding: 16px 16px;
+}
+.middle .btn button {
+  background-color: #474747;
+  color: white;
+  height: 20px;
+  width: 30%;
+  height: 30%;
+  border-radius: 17px 17px 17px 17px;
+  font-size: 20px;
+}
+
+.video {
+  width: 15px;
+  font-size: 10px;
+}
+.statics {
+  padding: 3px;
+}
+.status {
+  list-style-type: none;
+  font-size: 50px;
+}
+.items {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.line {
+  list-style-type: none;
+  font-size: 300%;
+  font-weight: lighter;
+}
+.feature {
+  width: 300px;
+  height: 200px;
+  padding: 16px;
+}
+.restyle {
+  font-size: 180%;
+  text-align: center;
+  margin-right: 30%;
+}
+.hname {
+  padding: 16px;
+  font-size: 30px;
+}
+.content {
+  margin-left: 18%;
+}
+
+.footer {
+  padding: 16px;
+}
+.middle {
+  padding: 16px;
+}
+.center {
+  padding: 16px;
+}
+ul {
+  display: flex;
+}
+li {
+  padding: 16px;
+}
+.list {
+  text-decoration: none;
+}
+
+.side-content {
+  width: 300px;
+  height: 150px;
+}
+.seller {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-img,
+.first-img {
+  width: 300px;
+  height: 150px;
+}
+.container-one,
+.container-two {
+  display: flex;
+}
+
+/* .review-img {
+  width: 300px;
+  height: 150px;
+} */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.container-one {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+
+  margin-left: 16%;
+}
+.decor h5 {
+  font-size: 28px;
+}
+.decor h4 {
+  padding: 16px;
+  font-size: 20px;
+}
+.first-img {
+  width: 350px;
+  height: 300px;
+  padding: 16px;
+}
+.decor {
+  padding: 16px 16px;
+}
+.decor button {
+  background-color: #474747;
+  color: white;
+  border-radius: 17px 17px 17px 17px;
+  font-size: 20px;
+  width: 30%;
+}
+.container-two {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  margin-left: 16%;
+}
+.promo h5 {
+  font-size: 28px;
+}
+.promo h4 {
+  padding: 16px;
+  font-size: 20px;
+}
+.second-img {
+  width: 350px;
+  height: 300px;
+  padding: 16px;
+}
+.promo {
+  padding: 16px 16px;
+}
+.promo button {
+  background-color: #474747;
+  color: white;
+  border-radius: 17px 17px 17px 17px;
+  font-size: 20px;
+  width: 30%;
+}
+.review-img {
+  width: 60px;
+  height: 60px;
+}
+.parker-img {
+  width: 60px;
+  height: 60px;
+}
+.centre {
+  text-align: center;
+}
+.four-images {
+  display: grid;
+  align-items: space-around;
+}
+.reviews {
+  text-align: center;
+}
+.finedecore {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Last {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.four-images {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
