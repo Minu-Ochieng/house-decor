@@ -49,7 +49,7 @@ nav ul li {
 }
 .status {
   list-style-type: none;
-  font-size: 50px;
+  font-size: 30px;
 }
 .items {
   margin-top: 10px;
@@ -117,16 +117,10 @@ li {
   display: flex;
 }
 
-/* .review-img {
-  width: 300px;
-  height: 150px;
-} */
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
+.footer-content-right {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 16%;
 }
 
 .container-one {
@@ -187,22 +181,22 @@ li {
   width: 30%;
 }
 .review-img {
-  width: 60px;
-  height: 60px;
+  width: 450px;
+  height: 400px;
 }
-.parker-img {
-  width: 60px;
-  height: 60px;
-}
+
 .centre {
   text-align: center;
 }
 .four-images {
-  display: grid;
-  align-items: space-around;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
 }
-.reviews {
+.review {
+  display: flex;
   text-align: center;
+  padding: 16px 16px;
 }
 .finedecore {
   display: grid;
@@ -216,4 +210,22 @@ li {
   display: grid;
   grid-template-columns: auto auto auto auto;
   text-align: center;
+}
+.testminony {
+  text-align: center;
+}
+.testminony h3 {
+  font-size: 35px;
+}
+.parker {
+  display: flex;
+  padding: 16px 16px;
+  font-size: 20px;
+}
+.parker-img {
+  width: 150px;
+  height: 150px;
+}
+.card {
+  margin-left: 15%;
 }
